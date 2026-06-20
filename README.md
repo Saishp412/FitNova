@@ -1,4 +1,4 @@
-<div align=""center"">
+﻿<div align=""center"">
   <h1>FitNova: Smart AI Fitness & Diet Tracker</h1>
   <p><strong>A highly scalable, cross-platform mobile application redefining personal fitness through AI-driven insights, daily tracking, and comprehensive health reporting.</strong></p>
 
@@ -12,7 +12,7 @@
 
 <hr />
 
-## 📖 Executive Summary
+## ðŸ“– Executive Summary
 **The Problem:** Traditional fitness apps fail to bridge the gap between diet tracking and actionable insights. Users are forced to juggle multiple applications to track calories, log water intake, monitor BMI, and generate reports.
 
 **The Solution:** **FitNova** is a comprehensive, all-in-one health ecosystem. Built with a reactive **Flutter** architecture and a **Firebase** NoSQL backend, it unifies calorie tracking, biometric data (BMI/BMR), and automated daily PDF reporting into a single, seamless, high-performance mobile application. 
@@ -24,7 +24,7 @@
 
 ---
 
-## 🏗️ Technical Architecture 
+## ðŸ—ï¸ Technical Architecture 
 
 FitNova utilizes a modern, reactive architecture separating the UI rendering layer from the business logic and cloud database layer. 
 
@@ -52,7 +52,7 @@ graph LR
 
 ---
 
-## 🚀 Key Features & Implementation Modules
+## ðŸš€ Key Features & Implementation Modules
 
 ### 1. Dynamic Calorie & Health Dashboard
 A beautiful, gamified Home Dashboard featuring circular progress indicators. It calculates Real-Time Calorie deficits by aggregating meals logged across the application. 
@@ -68,7 +68,7 @@ Users can instantly download a beautifully formatted PDF summarizing their daily
 
 ---
 
-## 📱 Application Screenshots
+## ðŸ“± Application Screenshots
 
 | Home Dashboard | Meal Logging | PDF Daily Report | User Profile |
 |:---:|:---:|:---:|:---:|
@@ -79,7 +79,7 @@ Users can instantly download a beautifully formatted PDF summarizing their daily
 
 ---
 
-## 🛠️ Installation & Setup Workflow
+## ðŸ› ï¸ Installation & Setup Workflow
 
 Want to run FitNova locally? Follow these steps:
 
@@ -102,12 +102,13 @@ Want to run FitNova locally? Follow these steps:
 
 ---
 
-## 📈 Scalability & Performance Impact
+## ðŸ“ˆ Scalability & Performance Impact
 * **Render Efficiency:** Aggressive tree-shaking strips out 1.6MB unused icon fonts down to 11KB, severely optimizing APK size.
 * **Cross-Platform:** Built completely with Flutter, ensuring native 60fps performance across iOS and Android while maintaining 100% code shareability.
 * **Security:** Sensitive API keys and Firebase configurations are rigorously excluded from version control using .gitignore, protecting backend integrity.
 
 <div align=""center"">
   <br />
-  <p><b>Built with ❤️ by Saish</b></p>
+  <p><b>Built with â¤ï¸ by Saish</b></p>
 </div>
+
