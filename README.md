@@ -70,10 +70,21 @@ Users can instantly download a beautifully formatted PDF summarizing their daily
 
 ## ðŸ“± Application Screenshots
 
-| Home Dashboard | Meal Logging | PDF Daily Report | User Profile |
+| Authentication | Home Dashboard | Activity Dashboard | User Profile |
 |:---:|:---:|:---:|:---:|
-| ![Home](screenshots/placeholder.png) | ![Meal](screenshots/placeholder.png) | ![PDF](screenshots/placeholder.png) | ![Profile](screenshots/placeholder.png) |
-| *Dynamic Calorie Ring & Dashboard* | *Custom Meal & Water Logging* | *Native PDF Export & Share Sheet* | *Biometric Data & BMI* |
+| ![Auth](screenshots/Authentication%20page.jpeg) | ![Dashboard 1](screenshots/Dashboard%201.jpeg) | ![Dashboard 2](screenshots/Dashboard%202.jpeg) | ![Profile](screenshots/User%20profile.jpeg) |
+
+| Explore Diet | Daily Meal Plan | Daily Workout Plan | Active Workout |
+|:---:|:---:|:---:|:---:|
+| ![Explore Diet](screenshots/Explore%20diet.jpeg) | ![Meal Plan](screenshots/Daily%20meal%20plan.jpeg) | ![Workout Plan](screenshots/Daily%20workout%20plan.jpeg) | ![Active](screenshots/Active%20workout.jpeg) |
+
+| Food Logs | Supplements & Logs | Coach Nova AI | AI Chatbot |
+|:---:|:---:|:---:|:---:|
+| ![Food Logs](screenshots/Consumed%20food%20logs.jpeg) | ![Supplements](screenshots/Supplementary%20and%20Food%20logs.jpeg) | ![AI Analytics](screenshots/AI%20analytics%20by%20coach%20nova.jpeg) | ![Chatbot](screenshots/Coach%20nova%20chatbot.jpeg) |
+
+| Data Visualisation 1 | Data Visualisation 2 | PDF Report | PDF Report Detail |
+|:---:|:---:|:---:|:---:|
+| ![Vis 1](screenshots/Data%20visualisation%201.jpeg) | ![Vis 2](screenshots/Data%20visualisation%202.jpeg) | ![PDF 1](screenshots/Pdf%20report.jpeg) | ![PDF 2](screenshots/Pdf%20report%202.jpeg) |
 
 *(Note: Replace placeholder images above with actual application screenshots)*
 
@@ -111,5 +122,6 @@ Want to run FitNova locally? Follow these steps:
   <br />
   <p><b>Built with â¤ï¸ by Saish</b></p>
 </div>
+
 
 
