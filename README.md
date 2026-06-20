@@ -1,4 +1,4 @@
-﻿<div align=""center"">
+<div align=""center"">
   <h1>FitNova: Smart AI Fitness & Diet Tracker</h1>
   <p><strong>A highly scalable, cross-platform mobile application redefining personal fitness through AI-driven insights, daily tracking, and comprehensive health reporting.</strong></p>
 
@@ -28,19 +28,27 @@
 
 FitNova utilizes a modern, reactive architecture separating the UI rendering layer from the business logic and cloud database layer. 
 
-`	ext
-+-------------------+       +-----------------------+       +-------------------+
-|   Presentation    |       |   Business Logic      |       |   Data / Cloud    |
-|      (UI)         |       |    (Controllers)      |       |     (Backend)     |
-+-------------------+       +-----------------------+       +-------------------+
-|                   |       |                       |       |                   |
-| - Home Dashboard  |<======> - State Management    |<======> - Firebase Auth   |
-| - Explore Screen  |       | - API Connectors      |       | - Cloud Firestore |
-| - Profile Tab     |       | - PDF Engine (Print)  |       | - Local Storage   |
-| - Auth Screens    |       | - Data Sync Logic     |       |                   |
-|                   |       |                       |       |                   |
-+-------------------+       +-----------------------+       +-------------------+
-`
+```mermaid
+graph LR
+  subgraph UI Layer
+    A[Home Dashboard<br/>Explore Screen<br/>Profile Tab<br/>Auth Screens]
+  end
+  
+  subgraph Business Logic
+    B[State Management<br/>API Connectors<br/>PDF Engine<br/>Data Sync Logic]
+  end
+  
+  subgraph Data & Cloud
+    C[(Firebase Auth<br/>Cloud Firestore<br/>Local Storage)]
+  end
+
+  A <--> B
+  B <--> C
+  
+  style A fill:#02569B,stroke:#fff,stroke-width:2px,color:#fff
+  style B fill:#0175C2,stroke:#fff,stroke-width:2px,color:#fff
+  style C fill:#FFCA28,stroke:#fff,stroke-width:2px,color:#000
+```
 
 ---
 
