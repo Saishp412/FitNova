@@ -112,3 +112,4 @@ Want to run FitNova locally? Follow these steps:
   <p><b>Built with â¤ï¸ by Saish</b></p>
 </div>
 
+
